@@ -1,5 +1,13 @@
 //LISTADO DE OPREACIONES
 
-const operation = require('./operation/addition');
-const operation = require('./operation/substraction');
+const addition = require('./operation/addition');
+const substraction = require('./operation/substraction');
+const division = require('./operation/division');
+const multiplicacion = require('./operation/multiplicacion');
 
+module.exports = {
+    division,
+    multiplicacion,
+    addition,
+    substraction,
+};
